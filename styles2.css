@@ -1,0 +1,214 @@
+body{  
+    background-image: url(coffee-beans.jpg);
+    background-size: cover;
+}
+
+.selection{   
+    position :relative;
+    height: 700px;
+    width: 400px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: #ECECEC;
+    margin: auto ;
+    
+   
+}
+
+.selection p span{
+    position: absolute;
+    left:40%;
+    top: 25px;
+    width:100%;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.875rem;
+    font-weight: bold;        
+    color:#26947c;
+}
+
+#kahve{
+    position: absolute;
+    left: 33%;
+    top : 15%;  
+}
+#kahve1{
+    position: absolute;
+    left: 33%;
+    top : 17%;
+
+}
+.list{
+  
+    height:350px;
+    width: 400px;
+    background-color: #DADFE1;
+    margin: 0 auto;
+    position: absolute;
+    bottom:0px;
+    border-style: none;
+    border-radius: 7px;
+    border-radius: 7px;
+  
+}
+
+.list p {
+    position: absolute;
+    left:35%;
+    top: -65px;
+    width:100%;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.875rem;
+    font-weight:bold;        
+    color:#26947c;
+  
+}
+
+
+
+.list ul {
+    
+    list-style:none;
+    position: absolute;
+    left: 5%;
+    top:30px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.075rem;
+    font-weight:bold;        
+    color:#95a5a6;
+   
+}
+
+.list ul li{
+    
+    list-style:none;
+    position: relative;
+    margin-left: 10px auto;
+    top:10px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.275rem;
+    font-weight:bold;        
+    color:#2c3e50;
+    line-height: 50px;
+    
+    
+}
+
+.list ol {
+    
+    list-style:none;
+    position: absolute;
+    right: 15%;
+    top:30px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.075rem;
+    font-weight:bold;        
+    color:#355491;    
+}
+
+.list ol li{
+    
+    list-style:none;
+    position: relative;
+    margin-right: 100px auto;
+    top:10px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.275rem;
+    font-weight:bold;        
+    color:#2c3e50;
+    line-height: 50px;  
+}
+
+.coffeelist{
+    height:320px;
+    width: 320px;
+    background-color: #ECECEC;
+    margin-left: 10px auto;
+    position: absolute;
+    bottom:0px;
+    left:40px;
+    border-style: none;
+    border-radius: 7px;
+    border-radius: 7px;
+    
+}
+.donutlist{
+    height:320px;
+    width: 320px;
+    background-color: #ECECEC;
+    margin-left: 10px auto;
+    position: absolute;
+    bottom:0px;
+    left:40px;
+    border-style: none;
+    border-radius: 7px;
+    border-radius: 7px;
+    
+}
+.container{
+    display: block;
+    margin: 200px;
+    
+}
+h1{
+    text-align: center;
+    font-family:  'Abel', sans-serif;
+    font-size: 2.875rem;
+    font-weight:bold;        
+    color:#2574A9;
+    margin: 20px;
+    background-color:white;
+    border-radius: 100px;
+
+}
+header{
+    position :relative;
+    left: 0;
+    right: 0;
+    border-style: none;
+    border-radius: 100px;
+    margin: auto;
+    height: 40px;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+    transform: translate(0%, 150%);
+}
+
+.container23{
+    max-width: 1000px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transform: translate(-1%, 10%);
+}
+nav {
+    background-color: rgb(241, 192, 101);
+    border-radius: 100px;
+    height: 30;
+    margin: auto; /* Center the navbar horizontally */
+    padding: 10px;
+    width: 90%;
+    display: flex; /* Add flexbox to align items horizontally */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 20px; /* Adjust margin for equal spacing */
+    padding: 5px 20px; /* Adjust padding for consistent padding */
+    border-radius: 30px;
+    text-shadow: 0 0 5px #161313;
+
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.headers{
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+}

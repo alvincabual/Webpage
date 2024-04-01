@@ -1,0 +1,111 @@
+
+*{
+    transition: .3s;
+}
+
+
+body{
+    background-image: url(pexel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.container23{
+    max-width: 1000px;
+    margin: auto;
+}
+nav {
+    float: right;
+    margin: 6px 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 40px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.Buttoms{
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.Buttoms h1{
+    font-size: 5em;
+    margin: 0;
+    color: #75c2b5;
+    text-shadow: 0 0 5px #161313;
+}
+
+.Buttoms p{
+    font-size: 1.5em;
+    margin: 0;
+    color: #eff1f0;
+    text-shadow: 0 0 5px #161313;
+}
+
+.Buttoms button{
+    color: #fff;
+    background: transparent;
+    border: solid 2px #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.Buttoms button:hover{
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #333;
+    
+}.Buttoms button a:hover{
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #333;
+}
+
+
+button.buttons{
+    background: rgb(0, 206, 93);
+    border: solid 2px rgb(0, 206, 93);
+}
+
+button.buttons:hover{
+    color: #fff;
+    background: rgb(1, 168, 76);
+    border: solid 2px rgb(1, 168, 76);
+  
+}
+
+
